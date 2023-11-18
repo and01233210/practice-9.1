@@ -27,7 +27,7 @@ body{
 .li-portfolio{
     color: var(--accent-color);
 }
-.button-portfolio{
+.button-portfolio:hover{
     color: var(--text-clolor);
 
     text-align: center;
