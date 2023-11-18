@@ -11,7 +11,7 @@
     }
 body{
     background-color: var(--background-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif     ;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 .header-studio{
@@ -83,7 +83,7 @@ letter-spacing: 0.42px;
 .place-studio{
     color: var(--section-1-text-color);
 }
-.gmail-gmail-phone-studio{
+.gmail-phone-studio{
     color:var(--background-footer-color);
 }
 
