@@ -6,6 +6,7 @@
     --footer-main-backround-color:#2F303A;
     --background-footer: #2F303A;
     --gmail-phone-color: rgba(255, 255, 255, 0.60);
+    --background-button: #F5F4FA;
 }
 body{
     background-color: var(--background-color);
@@ -19,6 +20,7 @@ body{
     font-weight: 500;
 }
 .web-studio{
+    color: var(--accent-color);
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
@@ -29,6 +31,7 @@ body{
 }
 .button-portfolio:hover{
     color: var(--text-clolor);
+    background-color: var(--accent-color);
 
     text-align: center;
     font-size: 16px;
