@@ -9,6 +9,7 @@
     --section-1-text-color:#FFF;
     --background-footer-color:#2F303A;
     --gmail-phone-color:rgba(255, 255, 255, 0.60);
+    --span-color: #000;
     }
 body{
     background-color: var(--background-color);
@@ -22,9 +23,11 @@ body{
 font-size: 26px;
 font-weight: 700;
 line-height: normal;
-letter-spacing: 0.03em;
-
+letter-spacing: 0.03em;}
+.header-span{
+    color: var(--span-color);
 }
+
 .li-nav:hover{
     color: var(--text-color);
 font-size: 14px;

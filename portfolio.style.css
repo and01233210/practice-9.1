@@ -7,6 +7,7 @@
     --background-footer: #2F303A;
     --gmail-phone-color: rgba(255, 255, 255, 0.60);
     --background-button: #F5F4FA;
+    --span-color: #000;
 }
 body{
     background-color: var(--background-color);
@@ -25,6 +26,9 @@ body{
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
+}
+.header-span{
+    color: var(--span-color);
 }
 .li-portfolio{
     color: var(--accent-color);
