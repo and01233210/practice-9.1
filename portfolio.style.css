@@ -28,7 +28,7 @@ body{
 }
 .li-portfolio{
     color: var(--accent-color);
-}
+}   
 .button-portfolio:hover{
     color: var(--text-clolor);
     background-color: var(--accent-color);
