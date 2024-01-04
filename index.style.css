@@ -22,11 +22,12 @@ body{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: solid red;
 }
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    width: 1600px;
+    height: 80px;
 }
 .header-logo{
     font-family: "Raleway";
@@ -39,8 +40,7 @@ display: block;
 }
 .header-navigation{
     width: 100%;
-    display: flex;
-outline: solid green;}
+    display: flex;;}
     
 .header-span{
     color: var(--span-color);
@@ -49,15 +49,16 @@ outline: solid green;}
     margin-left: 93px;
     display: flex;
     margin-right: 244px;
+    align-items: center;
 
 }
-
 .header-page{
+    text-decoration: none;
     color: var(--text-color);
 font-size: 14px;
 font-weight: 500;
 line-height: normal;
-letter-spacing: 0.02em;
+letter-spacing: 0.28px;
 margin-right: 50px;
 }
 
@@ -103,6 +104,8 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 .hero-button{
+    width: 216px;
+    height: 50px;
     background-color: var(--button-color);
     color: var(--section-1-text-color);
     font-size: 16px;
@@ -112,11 +115,7 @@ letter-spacing: 0.02em;
     margin-left: auto;
     margin-right: auto;
 }
-.info-section{
-    
-    outline: solid purple;
 
-}
 .info-title{
     padding-bottom: 1   0px;
     color: var(--text-color);
@@ -162,9 +161,11 @@ padding-bottom: 94px;
 .names-section{
     text-align: center;
     padding-top: 94px;
+    background-color: #F5F4FA;
 
 }
 .names-box{
+    background-color: #FFFFFF;
     height: 108px;
     width: 270;
 }
@@ -195,7 +196,9 @@ padding-bottom: 94px;
     letter-spacing: 0.48px;
 }
 
-.footer-studio{
+.footer-section{
+    width: 1600px;
+    height: 252px;
     background-color: var(--footer-main-color);
     font-size: 14px;
 font-weight: 400;
@@ -204,14 +207,25 @@ letter-spacing: 0.42px;
 padding-top: 60px;
 padding-bottom: 60px;
 }
+.footer-logo{
+    font-family: "Raleway";
+    color: var(--accent-color);
+font-size: 26px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.03em;
+display: block;
+}
 .footer-span{
     color: var(--background-color);
 }
 .footer-place{
     color: var(--section-1-text-color);
+    padding-top: 20px   ;
 }
 .footer-gmail-phone{
     color:var(--gmail-phone-color);
+    padding-top: 9px;
 }
 
 
