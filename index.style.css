@@ -37,6 +37,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.03em;
 display: block;
+text-decoration: none;
 }
 .header-navigation{
     width: 100%;
