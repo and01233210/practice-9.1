@@ -131,6 +131,30 @@ text-transform: uppercase;
     padding-top:94px ;
     padding-bottom:94px;
     gap: 30px;
+    
+}
+.info-item::before{
+    height: 120px;
+    width: 270px;
+    background-color: #F5F4FA;
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info-item:first-child::before{
+    background-image: url(./pages/studio-1-icon.png);
+    
+
+}
+.info-item:nth-child(2)::before{
+    background-image: url(./pages/studio-2-icon.png);
+}
+.info-item:nth-child(3)::before{
+    background-image: url(./pages/studio-3-icon.png);
+}
+.info-item:nth-child(4)::before{
+    background-image: url(./pages/studio-4-icon.png);
 }
 .info-box{
     width: 270px;
