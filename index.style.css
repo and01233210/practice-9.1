@@ -24,8 +24,8 @@ body{
     margin-right: auto;
 }
 .header{
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     width: 1600px;
     height: 80px;
 }
@@ -90,6 +90,9 @@ letter-spacing: 0.02em;
     background-color: var(--footer-main-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(#2f303a66, #2f303a66),
+    url(./pages/studio-overlay-1.png);
+    border-radius: 4px;
 }
 .hero-title{
     color: var(--section-1-text-color);
@@ -99,7 +102,6 @@ letter-spacing: 0.02em;
     line-height: 60px;
     letter-spacing: 2.64px;
     font-weight: 900;
-    margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -115,11 +117,15 @@ letter-spacing: 0.02em;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     border: none;
 }
-
+.info-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .info-title{
     margin-bottom: 10px;
     padding-bottom: 1   0px;
@@ -175,9 +181,10 @@ text-transform: uppercase;
 .work-section{
 text-align: center;
 padding-bottom: 94px;
+
 }
 .work-title{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     color: var(--text-color);
     font-size: 36px;
     font-weight: 700;
@@ -191,6 +198,7 @@ padding-bottom: 94px;
 .names-section{
     text-align: center;
     padding-top: 94px;
+    padding-bottom: 94px;
     background-color: #F5F4FA;
 
 }
@@ -208,13 +216,15 @@ padding-bottom: 94px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.names-image{
+    margin-bottom: 30px;
+}
 .names-item{
     box-shadow: 0px 2px 1px 0px #00000033,0px 1px 1px 0px #00000024,0px 1px 3px 0px #0000001F;
 }
 .names-text{
-    padding-top: 30px;
     
-    padding-bottom:10px ;
+    margin-bottom:10px ;
     font-size: 16px;
     color: var(--text-color);
     font-weight: 500;
@@ -227,6 +237,7 @@ padding-bottom: 94px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.48px;
+    padding-bottom: 30px;
 }
 
 .footer-section{
@@ -254,11 +265,11 @@ display: block;
 }
 .footer-place{
     color: var(--section-1-text-color);
-    padding-top: 20px   ;
+    margin-top: 20px   ;
 }
 .footer-gmail-phone{
     color:var(--gmail-phone-color);
-    padding-top: 9px;
+    margin-top: 9px;
 }
 
 
