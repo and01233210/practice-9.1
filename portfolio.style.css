@@ -24,6 +24,7 @@ body{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid rgba(236, 236, 236, 1)
 }
 .header-logo{
     font-family: "Raleway";
@@ -33,6 +34,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.03em;
 display: block;
+text-decoration: none;
 }
 .header-navigation{
     width: 100%;
@@ -62,12 +64,13 @@ text-decoration: none;
 }
 
 .header-link{
-    color: var(--overview-color);
+    color: rgba(117, 117, 117, 1);
 
 font-size: 14px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.02em;
+
 }
 .header-page:hover{
     color: var(--accent-color);
@@ -80,10 +83,9 @@ letter-spacing: 0.02em;
 }
 .header-contacts{
     display:flex;
-}
-.header-contact{
-    margin-left: 50px;
-    
+    gap: 50px;
+
+
 }
 .buttons-section{
 padding-top: 94px;
