@@ -287,7 +287,8 @@ display: flex;
 gap: 30px;
 }
 .clients-logo{
-display: block;
+    fill: rgba(175, 177, 184, 1);
+
 }
 .clients-item{
     display: flex;
